@@ -1,0 +1,13 @@
+#navbar{
+    display: block;
+    position: fixed;
+    height: 4rem;
+    width: 100rem;
+    background-color: rgb(149, 117, 117);
+    box-shadow: 0px 0px 0px 0px black;
+}
+#main-container{
+    height: 20rem;
+    background-color: aqua;
+
+}
