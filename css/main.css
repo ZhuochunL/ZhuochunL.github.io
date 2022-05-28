@@ -6,8 +6,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -25,16 +23,16 @@ button{
     height: 75px;
     border: 0;
     outline: none;
-    background: whitesmoke;
-    color: rgb(14, 14, 132);
-    border-radius: 40px;
+    background: rgb(34,74,160);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
     text-align: center;
     box-shadow: 0 6px 20px -5px black;
-    
+    border: 5px solid rgb(255, 255, 255);
 }
 
-button hover{
-    color: rgb(0, 0, 0);
+button:hover{
+    background: rgb(37, 104, 197);
 }
 
 .everything {
@@ -51,6 +49,5 @@ button hover{
     height: 100%;
     padding: 20px 0;
     transition: all 0.5s ease-in-out;
-    
 
 }
