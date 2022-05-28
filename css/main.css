@@ -21,3 +21,15 @@ ul {
 .everything {
     text-align:  center;
 }
+
+.home-page-sidebar-navigation .sidebar{
+    background: rgb(34, 74, 160);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease-in-out;
+
+}
