@@ -2,7 +2,7 @@
 
 body {
     margin: 0; 
-    background: rgba(100, 139, 206, 0.824);
+    background: rgba(16, 31, 56, 0.824);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -39,6 +39,8 @@ button:hover{
     text-align:  center;
 }
 
+
+
 .home-page-sidebar-navigation .sidebar{
     border: 30px solid rgb(34, 74, 160);
     background: rgb(76, 118, 209);
@@ -51,3 +53,35 @@ button:hover{
     transition: all 0.5s ease-in-out;
 
 }
+
+
+
+#footer-outer {
+	height: 40px;
+	background: rgb(34, 74, 160);
+    
+}
+
+.footer-table {
+	display: block;   
+	margin: 0 auto;
+}
+
+ul#footer-links {
+    
+	min-width: 696px;
+	list-style: none;
+	padding: 10px 10px 10px 10px;
+
+	}
+	ul#footer-links li {
+        
+		display: inline;
+	}
+    
+    a{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(185, 192, 198);
+        font-size: small;
+        font-weight: 100;
+    }
