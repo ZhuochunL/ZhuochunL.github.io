@@ -2,8 +2,37 @@
 
 body {
     margin: 0; 
-    background: rgba(16, 31, 56, 0.824);
+    background: rgba(1, 17, 45, 0.952);
     font-family: 'Montserrat', sans-serif;
+}
+
+.image-grid{
+    --gap: 16px;
+    --number-columns: 4;
+    --image-height: 300px;
+
+    box-sizing: border-box;
+    padding: var(--gap); 
+    
+    display: grid;
+    grid-template-columns: repeat(var(--number-columns), 1fr);
+    grid-auto-rows: var(--image-height);
+    gap:var(--gap);
+     
+}
+
+.image-grid > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+    .image-grid {
+        --number-columns: 2;
+        --row-height:200px;
+
+    }
 }
 
 ul {
@@ -39,9 +68,10 @@ button:hover{
     text-align:  center;
 }
 
-
-
-.home-page-sidebar-navigation .sidebar{
+.nav-sidebar{
+    padding-rights: 300px;
+}
+.home-page-sidebar-navigation {
     border: 30px solid rgb(34, 74, 160);
     background: rgb(76, 118, 209);
     position: fixed;
@@ -49,7 +79,7 @@ button:hover{
     right: 0;
     width: 300px;
     height: 100%;
-    padding: 20px 0;
+    padding: 20px 0 0 0;
     transition: all 0.5s ease-in-out;
 
 }
