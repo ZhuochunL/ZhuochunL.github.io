@@ -62,16 +62,17 @@ ul {
 p.flavourtext{
     background-color: rgba(1, 2, 33, 0.071);
     padding-top: 90%;
+    font-size: large;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: aliceblue;
 
-    opacity: 1 !important;
 }
 
 .flavourtext-background{
-    background-image: url(https://media.wired.com/photos/5b450513c847490ba83182cf/master/w_1600%2Cc_limit/hk2.jpg); 
+    background-image: url(https://cdn1.vectorstock.com/i/1000x1000/19/75/city-silhouette-night-dark-blue-cityscape-skyline-vector-31511975.jpg); 
     background-size: cover; 
+    opacity: 0.9;
 }
 
 
