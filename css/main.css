@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
 
-body {
+.homebody {
     margin: 0; 
     background: rgba(1, 17, 45, 0.952);
     font-family: 'Montserrat', sans-serif;
     background-image: url(https://static.photocrowd.com/upl/dw/cms.SW1POXRq6etAsv8q2WTQ-hd.jpeg);
+    
+}
+
+.carsearchbody {
+    margin: 0; 
+    background: rgba(1, 17, 45, 0.952);
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(https://media.istockphoto.com/photos/light-blue-watercolor-background-picture-id1301156172?b=1&k=20&m=1301156172&s=170667a&w=0&h=Ag7FeKGlohIwsKuJqTU180CL01lSGQieqEWv6mKK4n4=);
     
 }
 
@@ -84,11 +92,11 @@ p.flavourtext{
 
 
 .other-options-onsite{
-    padding: 10px 0 20px 0 ;
+    padding: 10px 0 10px 0 ;
 }
 
 .other-options-finances{
-    padding: 0px 0 40px 0 ;
+    padding: 0px 0 20px 0 ;
 }
 
 
@@ -119,14 +127,14 @@ button:hover{
 
 
 .home-page-sidebar-navigation {
-    border: 30px solid rgb(34, 74, 160);
+    border: 20px solid rgb(34, 74, 160);
     background: rgb(76, 118, 209);
     position: fixed;
     top: 0;
     right: 0;
     width: 30%;
     height: 100%;
-    padding: 20px 0 0 0;
+    padding: 10px 0 0 0;
     transition: all 0.5s ease-in-out;
     z-index: 1;
 }
@@ -174,7 +182,7 @@ input{
     padding: 4px ;
     border-radius: 3px;
     width: 162px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     box-shadow: 0 6px 20px -5px black;
 }
 
@@ -198,3 +206,11 @@ input:focus::placeholder {
 
 }
 
+input {
+    width: 100%;
+}
+.span-inputs {
+    display: block;
+    overflow: hidden;
+    padding-right:10px;
+}
