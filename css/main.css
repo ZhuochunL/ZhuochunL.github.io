@@ -44,13 +44,14 @@ body {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .image-grid {
         --number-columns: 1;
         --row-height:200px;
         width: 50%;
 
     }
+
 }
 
 ul {
@@ -128,14 +129,19 @@ button:hover{
 
 
 #footer-outer {
-	height: 40px;
+	height: 35px;
 	background: rgb(34, 74, 160);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
     
 }
 
 .footer-table {
 	display: block;   
-	margin: 0 auto;
+	
+
 }
 
 ul#footer-links {
