@@ -13,6 +13,7 @@
     background: rgba(1, 17, 45, 0.952);
     font-family: 'Montserrat', sans-serif;
     background-image: url(/images/carsearchpagebackground.jpg);
+
     
 }
 
@@ -131,7 +132,7 @@ p.flavourtext{
 }
 
 
-button{
+.button{
     font-size: 1.2rem;
     width: 150px;
     height: 75px;
@@ -148,7 +149,7 @@ button{
 
 
 
-button:hover{
+.button:hover{
     background: rgb(37, 104, 197);
 }
 
@@ -270,14 +271,7 @@ p{
 
 }
 
-.product-details{
-    background-color: rgb(230, 243, 255);
-    border-radius: 10px;
-    padding: 1rem;
-    box-shadow: 0px 10px 5px rgb(52, 108, 151);
-    width: 100%;
-    max-height: 70%;
-}
+
 
 .productimage{
     width: 100%;
@@ -320,17 +314,35 @@ p{
 }
 
 .fa-solid{
-    transform: translate(0, 38%);
+    transform: translate(0, 36%);
 }
 
 .individual-product{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 }
 
-.grid-right{
-    margin-top: 100px
+.productlistbutton{
+    margin: 0 0 0 7%;
+    border: none;
+    background-color: rgb(230, 243, 255);
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0px 10px 5px rgb(52, 108, 151);
+    width: 100%;
+    height: fit-content;
 
+}
+
+.productlistbutton:hover{
+    background: rgba(135, 153, 170, 0.862);
+}
+
+.product-description{
+    font-size: 100%;
+}
+.grid-right{
+    margin-top: 100px;
 }
