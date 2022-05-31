@@ -80,8 +80,10 @@
         --row-height:200px;
         width: 60%;
 
-
     }
+
+    
+    
 }
 
 @media screen and (max-width: 700px) {
@@ -268,26 +270,19 @@ p{
 
 }
 
-.product-list{
+.product-details{
     background-color: rgb(230, 243, 255);
     border-radius: 10px;
     padding: 1rem;
     box-shadow: 0px 10px 5px rgb(52, 108, 151);
-    width: 50%;
-
-    
-}
-
-.individual-product{
-    color: black; 
-    margin-bottom: 1rem;
-    display: flexbox;
-
+    width: 100%;
+    max-height: 70%;
 }
 
 .productimage{
     width: 100%;
     border-radius: 1rem;
+    max-height: 100;
 }
 
 .productname{
@@ -310,4 +305,32 @@ p{
 
 .carsearch-sidebar{
     text-align: center;
+}
+
+.mileage-container{
+    display: grid;
+    grid-template-columns: 30px 50px;
+    
+        
+}
+
+.productiondate-container{
+    display: grid;
+    grid-template-columns: 30px 50px;
+}
+
+.fa-solid{
+    transform: translate(0, 38%);
+}
+
+.individual-product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
+
+.grid-right{
+    margin-top: 100px
+
 }
