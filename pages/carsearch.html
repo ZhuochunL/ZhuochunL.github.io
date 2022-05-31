@@ -18,14 +18,23 @@
 
             <div class="product-list">
                 <div class="individual-product">
+                                  
+                    
+
                     <div class="product-details">
                         <img class="productimage" src="/images/example car bmw.jpeg"></img>
                         <h2 class="productname">BMW series 3</h2>
-                        <h3 class="productprice">$20,000</h3>
-                        <h3 class="productmileage">30,000km</h3>
-                        <h3 class="productiondate">23/04/2013</h3>
+                            <h3 class="productprice">$20,000</h3>
+                            <div class="product-description"></div>
+                                <h3 class="productmileage">30,000km</h3>
+                                <h3 class="productiondate">23/04/2013</h3>
+                            </div>
                     </div>
+
+
+
                 </div>
+
             </div>
 
 <!-- backup if javascript doesnt work 
@@ -40,30 +49,32 @@
 
         <nav class="nav-sidebars"> <!--sidebar--> 
                 <div class="home-page-sidebar-navigation">
-                    <div class="sidebar">
-                        <img src="https://www.carcity.com.au/images/logo.png" alt="Carcity logo/title" class="Logo">
+                    <div class="carsearch-sidebar">
+
+                        <img src="https://www.carcity.com.au/images/logo.png" alt="Carcity logo/title" class="carsearch-logo"></img>
+
+                        <span class="car-search-span-inputs">
+                            <input id="search-item-by-mileage"class="carsearchinput" type="text" placeholder="Mileage km, eg: 10000"></input>
+
+                            <input class="carsearchinput" type="text" placeholder="Desired price, eg: 20000"></input>
+
+                            <input class="carsearchinput" type="text" placeholder="Brands, eg: ford"></input>
+
+                            <input class="carsearchinput" type="text" placeholder="car-type, eg: sedan"></input>
+
+                            <input class="carsearchinput" type="text" placeholder="Specfic term, eg: 4wd"></input>
+                        </span>
+
+                        <div class="search">
+                            <button class="b-search">
+                                <ul><li><a class="a-search" href="pages/carsearch.html">Search</a></li></ul>
+                            </button>
+                        </div>
+
+                        <p>now showing all 546 cars</p>
+
+                    </div>
                     
-                        </img>
-
-                    </div>
-                    <span class="car-search-span-inputs">
-                        <input id="search-item-by-mileage"class="carsearchinput" type="text" placeholder="Mileage km, eg: 10000"></input>
-
-                        <input class="carsearchinput" type="text" placeholder="Desired price, eg: 20000"></input>
-
-                        <input class="carsearchinput" type="text" placeholder="Brands, eg: ford"></input>
-
-                        <input class="carsearchinput" type="text" placeholder="car-type, eg: sedan"></input>
-
-                        <input class="carsearchinput" type="text" placeholder="Specfic term, eg: 4wd"></input>
-                    </span>
-                    <div class="search">
-                        <button class="b-Search">
-                            <ul><li><a class="a-search" href="pages/carsearch.html">Search</a></li></ul>
-                        </button>
-
-                    </div>
-                    <p>now showing all 546 cars</p>
                 </div>
 
         </nav>
