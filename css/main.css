@@ -360,8 +360,7 @@ button:active {
     background-color: rgb(205, 228, 255);
     margin: 50px 0px 0px 0px;
     border: 10px solid rgba(0, 0, 0, 0.189);
-    max-height: fit-content;
-    
+    max-height: 1100px;
     
 
 }
@@ -488,11 +487,12 @@ margin: 10px;
 .bluebar{
     background-color: rgb(88, 141, 165);
     width: 30.3%;
-    height: 1800px;
+    height: 1860px;
     margin-left: 60%;
     position: relative;
     z-index: -1;
     margin-top: 0px;
+    margin: opx;
     transform: translate(0,-2000px);
 }
 
@@ -549,6 +549,7 @@ margin: 10px;
     text-align: center;
     background-color: transparent;
     height: fit-content;
+    transform: translate(0px,-20%);
 }
 
 .comparetitlecontainer{
