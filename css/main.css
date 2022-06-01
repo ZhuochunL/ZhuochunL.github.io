@@ -48,7 +48,7 @@
 }
 
 /*       backup if javascript doesnt work
-.carsearch-product-grid{
+.carsearch-f-grid{
     --gap: 16px;
     --number-columns: 4;
     --image-height: 300px;
@@ -182,7 +182,7 @@ p.flavourtext{
     width: 100%;
     position: fixed;
     bottom: 0;
-    z-index: 0;
+    z-index: 3;
     
 }
 
@@ -356,10 +356,9 @@ button:active {
 
   /* end of carsearch specific and index page code */
 
-.productpage{
+.productpage-comparisonpage{
     background-color: rgb(205, 228, 255);
     margin: 50px 0px 0px 0px;
-    border: 10px solid rgba(0, 0, 0, 0.189);
     max-height: 1100px;
     
 
@@ -528,10 +527,10 @@ margin: 10px;
 .carpagenavbar{
     position: fixed;
     background-color: rgb(34, 74, 160);
-    width: 100%;
+    width: 110%;
     height: 50px;
     margin-top: -51px;
-    transform: translate(-10px,-10px);
+    transform: translate(px,-10px);
     z-index: 1;
 }
 
@@ -579,3 +578,141 @@ margin: 10px;
     height: 100%;
     object-fit: cover;
 }   
+
+.comparisonbutton{
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.comparisonbutton:hover{
+    border: none;
+
+}
+
+.comparisonpagenavbar{
+    position: fixed;
+    background-color: rgb(34, 74, 160);
+    width: 100%;
+    height: 50px;
+    margin-top: -51px;
+    transform: translate(-10px,-10px);
+    z-index: 2;
+}
+
+/* end of product page, comparision page next*/
+
+.comparison-photo-container{
+    display: grid;
+    grid-template-columns: 32.5% 32.5%;
+
+    grid-template-rows: 70%;
+    background-color: rgba(0, 0, 0, 0);
+    max-height: 350px;
+    margin: 0px 0px 0px 0px;
+    overflow: visible;
+    gap: 5%;
+}
+
+.comparisonleftphoto{
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border: 10px solid rgba(0, 0, 0, 0.189);
+    border-radius: 10px;
+    display: flexbox;
+}
+
+.covering-bar{
+    background-color: rgb(88, 141, 165);
+    width: 70%;
+    height: 300px;
+    transform: translate(0,-640px);
+    z-index: -1;
+}
+
+.comparison-car-name-price-container{
+    background-color: rgb(88, 141, 165);
+    width: 100%;
+    margin: 0px; 
+    height: 300px; 
+    z-index: 1;  
+    text-align: left;
+}
+
+.details-comparision-section-container{
+    background-color: transparent();
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.comparisondetail-container{
+    display: grid;
+    grid-template-columns: 32.5% 32.5%;
+    gap: 7.5%;
+}
+
+.comaprisoncompareothercars-container{
+    display: grid;
+    grid-template-columns: 32.5%;
+    width: 60%;
+    height: 400px;
+    padding: 10px;
+    transform: translate(0px,-80px);
+    margin-left: 75%;
+    padding: 10px;
+    background-color: darkgray;
+    transform: translate(0px,-120%);
+    height: 1000px;
+    width: fit-content;
+    
+}
+
+.comparisoncarimgsincomparisonpage{
+    width: 270px;
+    height: auto;
+    object-fit: cover;
+    overflow-y: scroll;
+}
+
+
+.CompareSimilarCarstext{
+    margin: 100%;
+    display: block;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.comparisonbuttonpage{
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    object-fit: cover;
+}
+
+.comparisonbuttonpage:hover{
+    border: none;
+
+}
+
+.comparisonlinkpage{
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    object-fit: cover;
+}
+
+.enqirebuttoncomparisionpage{
+    display: grid;
+    grid-template-columns: 32.5% 32.5%;
+    margin-left: 5%;
+    gap: 100px;
+    transform: translate(-80px,-1650px);
+}
+
+.enquirebutton{
+    
+}
