@@ -6,83 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="reset" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
-
+    <link rel="stylesheet" href="../css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script src="https://kit.fontawesome.com/2d8be7aef3.js" crossorigin="anonymous"></script>
 </head>
-<body class="homebody">
+<body class="productpage">
 
-    <div class="everything"> 
+    <img class="productpagelogo" src="/images/car city logo.png"></img>
+    
+<div class="large-photo-container">
 
-        
-        <div class="index-main-container">
+    <div class="mainphotocontainer">
+    <img class="productpagemainphoto" src="/images/example car bmw.jpeg"></img>
+    </div>
 
-            <div class="image-grid">
-                <img src="images/example car product volvo.jpg" alt="example car product image volvo">
-                <img src="images/example car bmw.jpeg" alt="example car bmw"> 
-                    <div class="flavourtext-background">
-                        <p class="flavourtext">hundreds of cars!</p> 
-                    </div>
-                <img src="images/example car hundai but is acutally honda.jpg" alt="example car hundai">
-                <img src="images/example car classic.jpg" alt="example car classic">
-                <img src="images/example car susuki.webp" alt="example car susuki">
-                <img src="images/example car lambo.jpg" alt="example car lambo">
-                <img src="images/example car pickup.avif" alt="example car pickup">
-            
+    <div class="sidephotos-container">
+        <!-- photos need to be exchangable -->
+        <img class="sidephoto" src="/images/bmwfront.jpg"></img>
+        <img class="sidephoto" src="/images/bmwdirectlyback.jpg"></img>
+        <img class="sidephoto" src="/images/bmwbac.jpg"></img>
+        <img class="sidephoto" src="/images/bmwinside.jpg"></img>
+    </div>
 
-            </div>
+</div>
 
+        <div class="car-name-price-container">
+            <p class="carname">BMW series 3</p>
+            <p class="price">$20,000</p>
         </div>
 
 
-        <nav class="nav-sidebars"> <!--sidebar--> 
-                <div class="home-page-sidebar-navigation">
-                    <div class="sidebar">
 
-                        <img src="images/car city logo.png" alt="Carcity logo/title" class="Logo"></img>                        </img>
+    <!-- <button class="more photos button">
+        <i class="fa-solid fa-caret-right"></i>
+    </button> -->
 
+    <section class="summary-and-features">
+        <h2 class="summary">Summary</h2>
 
-                        <div class="other-options-onsite">
-                         <button class="onsite button">
-                             <p class="p-onsite">Open on site</p>
-                           </button>
-                        </div>
+            <div class="summary-details">
+                <!-- add summary icons and paragraphs here -->
+                <i class="fa-solid fa-gauge"></i>   <!-- odometer icon -->
+                <p class="summary-detail-titles">Mileage</p>
+                <p class="summary-descrption">10,00km</p>
 
-                        <div class="other-options-finances">
-                            <button class="finance button">
-                              <p class="p-fiances">Finance with us</p>
-                            </button>
+                <i class="fa-solid fa-industry"></i> <!--production date icon-->
+                <p class="summary-detail-titles">Production date</p>
+                <p class="summary-descrption">23/04/2013  </p>
 
-                        </div>
-                            <span class="span-inputs">
-                                <input class="indexinput" type="text" placeholder="Mileage km, eg: 10000"></input>
+                <i class="fa-solid fa-gears"></i> <!-- transmissin icon gearbox  -->
+                <p class="summary-detail-titles">Transmission</p>
+                <p class="summary-descrption">automatic</p>
 
-                                <input class="indexinput" type="text" placeholder="Desired price, eg: 20000"></input>
+                <i class="fa-solid fa-car"></i> <!-- car-type  -->
+                <p class="summary-detail-titles">Car type</p>
+                <p class="summary-descrption">Sedan</p>
 
-                                <input class="indexinput" type="text" placeholder="Brands, eg: ford"></input>
+                <i class="fa-solid fa-clipboard"></i><!-- ancap rating  -->
+                <p class="summary-detail-titles">Ancap rating</p>
+                <p class="summary-descrption">10,00km</p>
+            </div> 
 
-                                <input class="indexinput" type="text" placeholder="car-type, eg: sedan"></input>
+        <h2 class="features">Features</h2>
 
-                                <input class="indexinput" type="text" placeholder="Specfic term, eg: 4wd"></input>
-                            </span>
-                            
-                        <div class="search">
-                            <button class="b-Search button">
-                              <ul><li><a class="a-search" href="pages/carsearch.html">Search</a></li></ul>
-                            </button>
+            <div class="feature-details">
+                <!-- add feature icons and paragraphs -->
+            </div>
+    </section>
 
-                        </div>
-                        
-                    </div>    
-
-                </div>
-
-        </nav>
-
-
-
+    <div class="comparetitlecontainer">
+        <h2 class="compare">compare similar cars</h2>
     </div>
 
-    <div id="footer-outer">
+    <div class="'comparecarsimages-container">
+        <!-- add comparision car images here -->
+    </div>
+
+    <div class="bluebar"></div>
+
+    <div id="footer-outer" class="footercarpage">
         <div class="footer-table">
           <ul id="footer-links">
             <li><a class="footerlink" href="#">Terms of Service</a></li>
@@ -90,8 +92,5 @@
           </ul>
         </div>
     </div>
-
 </body>
 </html>
-
-<!-- box-shadow: 0 6px 20px -5px black inset; put this into javascript on button press-->

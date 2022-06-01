@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
 
+
 .homebody {
     margin: 0; 
     background: rgba(1, 17, 45, 0.952);
@@ -337,7 +338,7 @@ p{
 }
 
 .productlistbutton:hover{
-    background: rgba(135, 153, 170, 0.862);
+    background: rgb(255, 255, 255);
 }
 
 .product-description{
@@ -345,4 +346,149 @@ p{
 }
 .grid-right{
     margin-top: 100px;
+}
+
+button:active {
+    background: #e5e5e5;
+            box-shadow: inset 3px 3px  #00000081;
+     outline: none;
+  }
+
+  /* end of carsearch specific and index page code */
+
+.productpage{
+    background-color: rgb(205, 228, 255);
+    margin: 0px;
+    border: 10px solid rgba(0, 0, 0, 0.189);
+    max-height: fit-content;
+    
+
+}
+
+.productpagelogo{
+margin: 10px;
+}
+
+.productpagemainphoto{
+    max-width: 100%;
+    max-height: fit-content;
+    margin-left: 10px;
+    margin-bottom: opx;
+    border: 10px solid rgba(0, 0, 0, 0.189);
+    border-radius: 10px;
+    display: flexbox;
+}
+
+.summary{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    color: white;
+    background-color: rgb(145, 184, 229);
+    width: 20%;
+    text-align: center;
+    margin: 10px 0px 0px 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    height: 300px;
+    text-decoration: underline;
+    transform: translate(10%, 0);
+}
+
+.features{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    color: darkblue;
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    text-align: center;
+    margin: 10px 0px 0px 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    height: 30px;
+    text-decoration: none;
+    transform: translate(120%, -590px);
+}
+
+.summary-details{
+    background-color: rgb(145, 184, 229);
+    width: 45%;
+    height: 270px;
+    transform: translate(0px, -250px);
+    margin-left: 20px;
+    border-radius: 10px;
+    display: grid;
+    padding-left: 10px;
+    grid-template-columns: 2rem 50% 0rem;
+    
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-left: 20px;
+}
+
+.summary-detail-titles{
+    background-color:rgba(64, 98, 161, 0.514);
+    width: fit-content;
+    height: 20px;
+    border-radius: 10px;
+    padding: 0,0,0,20px;
+} 
+
+.car-name-price-container{
+    background-color: rgb(88, 141, 165);
+    margin: 0px;
+    
+}
+
+.carname{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    transform: translate(40px,10px);
+    text-decoration: underline;
+}
+
+.price{
+    transform: translate(40px,-10px);
+    font-size: 30px;
+}
+
+.sidephotos-container{
+    background-color: rgb(88, 141, 165);
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    overflow-y: scroll;
+    transform: translate(0px,30%);
+}
+
+.sidephoto{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.large-photo-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 10%;
+    grid-template-rows: 70%;
+    background-color: rgba(0, 0, 0, 0);
+    max-height: 350px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.mainphotocontainer{
+    margin: 0;
+}
+
+.bluebar{
+    background-color: rgb(88, 141, 165);
+    width: 30.3%;
+    height: 1100px;
+    margin-left: 60%;
+    position: relative;
+    z-index: -1;
+    margin-top: 0px;
+    transform: translate(0,-1500px);
 }
