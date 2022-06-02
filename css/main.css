@@ -272,8 +272,6 @@ p{
 
 }
 
-
-
 .productimage{
     width: 100%;
     border-radius: 1rem;
@@ -713,19 +711,119 @@ margin: 10px;
     transform: translate(-80px,-1650px);
 }
 
-.enquirebutton{
-    text-align: center;
-    height: fit-content;
-    transform: translate(5px,-20px);
-    color: rgb(88, 141, 165);
-    width: 95%;
+
+.enquirybutton{
+    width: 10%;
+    height: 90%;
+    font-size: 12px;
+    text-align: auto;
+    overflow: hidden;
+    margin-top: 2.5px;
+    background-color: black ;
 }
 
-.enquirebuttontext{
-    font-size: 15px;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
+.productpagebutton{
+    text-align: center;
+    background-color:rgb(88, 141, 165);
     padding: 0px;
+    transform: translate(1px,-18px);
+}
+/* start of enquiry page */
+
+ .enquirypagebody{
+     width: 100%;
+     height: 100%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(88, 141, 165);
+    border: 0px;
+ }
+ 
+ .enquirypagenavbar{
+    position: fixed;
+    background-color: rgb(34, 74, 160);
+    width: 110%;
+    height: 50px;
+    margin-top: 0px;
+    padding: 0px;
+    transform: translate(-10px,-10px);
+    z-index: 2;
+}
+
+.enquirypagemaincontainer{
+    background-color: rgb(183, 226, 234);
+    margin-left: 8%;
+    padding: 0;
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+}
+
+.enquiryphoto{
+    width: 80%;
+    object-fit: contain;
+    margin-left: 6%;
+
+}
+
+.enquirypagelogo{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.enquirycontainer{
+    z-index: 1;
     margin: 0px;
-    color: rgb(88, 141, 165);
+    background-color: rgb(123, 153, 158);
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.summaryenquirypagedetails{
+    margin-top: 250px;
+    width: 50%;
+}
+
+.popup{
+    width: 400px;
+    background: rgb(113, 152, 165);
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+    padding: 0 30px 30px;
+    z-index: 2;
+    visibility: hidden;    
+}
+
+.open-popup{
+    visibility: visible;
+}
+
+
+.greentick{
+    object-fit: cover;
+    margin-top: 20px;
+    height: 60px;
+    width: auto;
+}
+
+.thankyoutext{
+    color: aliceblue;
+}
+
+.finish-button{
+    background-color: rgb(68, 167, 68);
+    width: 150px;
+    height: 50px;
+    border-width: 5px;
+    border-color: green;
+    border-radius: 10px;
+    
 }

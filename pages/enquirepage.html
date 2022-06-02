@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="reset" href="css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script src="https://kit.fontawesome.com/2d8be7aef3.js" crossorigin="anonymous"></script>
+</head>
+<body class="enquirypagebody">
+
+    <nav class="enquirypagenavbar">
+        <a class="backbuttontext" href="carsearch.html">
+            <button class="backbutton button">Back to Product List</button>
+        </a>
+    
+        <a class="backbuttontext" href="/pages/productpage.html">
+            <button class="backbutton button">Back to Product Page</button>
+        </a>
+    </nav>
+
+
+    <div class="enquirypagemaincontainer">
+        
+        <img class="productpagelogo enquirypagelogo" src="/images/car city logo.png">
+
+        <div class="mainphotocontainer enquiryphoto">
+            <img class="productpagemainphoto" src="/images/example car bmw.jpeg">
+        </div>
+
+        <div class="car-name-price-container enquirycontainer">
+            <p class="carname">BMW series 3</p>
+            <p class="price">$20,000</p>
+        </div>
+
+
+        <div class="summary-details summaryenquirypagedetails">
+            <!-- add summary icons and paragraphs here -->
+            <i class="fa-solid fa-gauge"></i>   <!-- odometer icon -->
+            <p class="summary-detail-titles">Mileage</p>
+            <p class="summary-descrption">10,00km</p>
+
+            <i class="fa-solid fa-industry"></i> <!--production date icon-->
+            <p class="summary-detail-titles">Production</p>
+            <p class="summary-descrption">23/04/2013  </p>
+
+            <i class="fa-solid fa-gears"></i> <!-- transmissin icon gearbox  -->
+            <p class="summary-detail-titles">Transmission</p>
+            <p class="summary-descrption">automatic</p>
+
+            <i class="fa-solid fa-car"></i> <!-- car-type  -->
+            <p class="summary-detail-titles">Car type</p>
+            <p class="summary-descrption">Sedan</p>
+
+            <i class="fa-solid fa-clipboard"></i><!-- ancap rating  -->
+            <p class="summary-detail-titles">Ancap rating</p>
+            <p class="summary-descrption">10,00km</p>
+        </div> 
+
+        <div class="submitenquirybutton-container">
+
+            <button type="submit" class="submitenquiry-button" onclick="openPopup()" >Submit</button>
+            
+            <div class="popup" id="popup">
+                <img class="greentick" src="/images/geentick.png">
+                <h2 class="thankyoutext">Thank you!</h2>
+                <p>Your enquiry has been successfully submitted, please check your emails for futher details.</p>
+                
+                <button type="button" class="finish-button" onclick="closePopup()">
+                    <p>Return to page</p>
+                </button>
+                 
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+<script src="../javascript/script.js"></script>
