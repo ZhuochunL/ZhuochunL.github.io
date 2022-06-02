@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <script src="https://kit.fontawesome.com/2d8be7aef3.js" crossorigin="anonymous"></script>
 </head>
+
 <body class="enquirypagebody">
 
     <nav class="enquirypagenavbar">
@@ -32,8 +33,8 @@
         </div>
 
         <div class="car-name-price-container enquirycontainer">
-            <p class="carname">BMW series 3</p>
-            <p class="price">$20,000</p>
+            <p class="carname enquirytitle">BMW series 3</p>
+            <p class="price enquirytitle">$20,000</p>
         </div>
 
 
@@ -60,9 +61,26 @@
             <p class="summary-descrption">10,00km</p>
         </div> 
 
+        <div class="input-container">
+
+            <div class="inputs">
+                <input class="full-name enquiryinput" nametype="text" placeholder="Fullname eg: John Smith">
+                <input class="enquiryinput" nametype="title" placeholder="Title eg: Mr">
+                <input class="enquiryinput" nametype="phone-number" placeholder="Phone Number">
+                <input class="enquiryinput" nametype="email" placeholder="Email">
+                <textarea class="enquiryinput additional-comment" nametype="additional-comment" placeholder="Add Addition Comments Here"> </textarea>
+
+                <button type="submit" class="submitenquiry-button" onclick="openPopup()" >Submit</button>
+            </div>
+
+        </div>
+    
+        
+        
         <div class="submitenquirybutton-container">
 
-            <button type="submit" class="submitenquiry-button" onclick="openPopup()" >Submit</button>
+            
+            
             
             <div class="popup" id="popup">
                 <img class="greentick" src="/images/geentick.png">
@@ -72,11 +90,12 @@
                 <button type="button" class="finish-button" onclick="closePopup()">
                     <p>Return to page</p>
                 </button>
-                 
+                
             </div>
 
         </div>
 
+        
     </div>
 
 </body>
