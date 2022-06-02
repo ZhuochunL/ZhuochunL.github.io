@@ -763,9 +763,9 @@ margin: 10px;
 }
 
 .enquiryphoto{
-    width: 80%;
+    width: 50%;
     object-fit: contain;
-    margin-left: 6%;
+    margin-left: 0;
 
 }
 
@@ -781,6 +781,8 @@ margin: 10px;
     text-align: left;
     padding-top: 0px;
     padding-bottom: 0px;
+    font-size: medium;
+    max-width: 40%;
 }
 
 .summaryenquirypagedetails{
@@ -827,3 +829,72 @@ margin: 10px;
     border-radius: 10px;
     
 }
+
+.enquirytitle{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+
+
+.submitenquiry-button{
+    border-width: 5px;
+    border-color: darkgreen;
+    background-color: rgb(83, 190, 81);
+    margin-top: 400px;
+    margin-left: 32%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    
+}
+
+.input-container{
+    background-color: rgb(57, 167, 197);
+    width: 30%;
+    height: 100%;
+    margin-left: 60%;
+    transform: translate(0,-1150px);
+    display: block;
+    border-radius: 10px;
+    
+
+
+}
+
+.placeholder{
+    color: grey;
+    transition: color 0.3s ease;
+    display: block;
+    width: 100%;
+    min-width: 100;
+}
+
+.inputs{
+    display: grid;
+    padding-bottom: 30px;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    height: auto;
+    margin: 10px;
+}
+
+.enquiryinput{
+    padding: 10px;
+}
+
+.additional-comment{
+    min-height: 100px;
+    word-wrap: break-word;
+    word-break: break-all;
+    height: 80px;
+    margin-bottom: 100px;
+
+}
+
