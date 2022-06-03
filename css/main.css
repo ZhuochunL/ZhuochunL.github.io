@@ -732,10 +732,10 @@ margin: 10px;
 
  .enquirypagebody{
      width: 100%;
-     height: 100%;
+     height: 1050px;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(88, 141, 165);
+    background-color: #B6D0F8;
     border: 0px;
  }
  
@@ -751,7 +751,7 @@ margin: 10px;
 }
 
 .enquirypagemaincontainer{
-    background-color: rgb(183, 226, 234);
+    background-color: #7da9d3;
     margin-left: 8%;
     padding: 0;
     width: 80%;
@@ -777,7 +777,7 @@ margin: 10px;
 .enquirycontainer{
     z-index: 1;
     margin: 0px;
-    background-color: rgb(123, 153, 158);
+    background-color: #597996;
     text-align: left;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -856,7 +856,7 @@ margin: 10px;
 }
 
 .input-container{
-    background-color: rgb(57, 167, 197);
+    background-color: rgb(158, 158, 158);
     width: 30%;
     height: 100%;
     margin-left: 60%;
