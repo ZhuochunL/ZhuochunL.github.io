@@ -393,6 +393,22 @@ margin: 10px;
     transform: translate(10%, 0);
 }
 
+.summary-button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(145, 184, 229);
+    width: 100%;
+    text-align: center;
+    border: none;
+    text-decoration: underline;
+}
+
+
+
+
+
 .features{
     font-family: 'Montserrat', sans-serif;
     font-size: 120%;
@@ -405,31 +421,46 @@ margin: 10px;
     border-radius: 10px;
     height: 30px;
     text-decoration: none;
-    transform: translate(120%, -590px);
+    transform: translate(120%, -80px);
+}
+
+.feature-button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+    color: darkblue;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.features:hover{
+    background: black;
 }
 
 .summary-details{
     background-color: rgb(145, 184, 229);
     width: 90%;
-    height: 270px;
+    height: 75vh;
     transform: translate(0px, -250px);
     border-radius: 10px;
     display: grid;
     padding-left: 10px;
     grid-template-columns: 2rem 50% 0rem;
-    font-size: 110%;
+    font-size: 2vw;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    margin-left: 20px;
+    
 }
 
 .summary-detail-titles{
     background-color:rgba(64, 98, 161, 0.514);
-    width: 120px;
-    height: 20px;
+    width: fit-content;
+    height: fit-content;
     border-radius: 10px;
     padding: 0,0,0,20px;
     text-align: center;
+    font-size: 2.5vw;
     
     
 } 
@@ -441,7 +472,7 @@ margin: 10px;
 }
 
 .carname{
-    font-size: 50px;
+    font-size: 4vw;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     transform: translate(40px,10px);
@@ -450,7 +481,7 @@ margin: 10px;
 
 .price{
     transform: translate(40px,-10px);
-    font-size: 30px;
+    font-size: 5vw;
 }
 
 .sidephotos-container{
@@ -483,6 +514,10 @@ margin: 10px;
     margin: 0;
 }
 
+.summary-descrption{
+    transform: translate(0px,5px);
+}
+
 .bluebar{
     background-color: rgb(88, 141, 165);
     width: 30.3%;
@@ -505,7 +540,7 @@ margin: 10px;
 }
 
 .backbutton{
-    width: 10%;
+    width: 200px;
     height: 90%;
     font-size: 12px;
     text-align: auto;
@@ -542,6 +577,8 @@ margin: 10px;
     background-color: transparent();
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: fit-content;
+    margin-left: 10px;
 }
 
 .comprison-container{
@@ -601,6 +638,7 @@ margin: 10px;
     transform: translate(-10px,0px);
     z-index: 2;
 }
+
 
 /* end of product page, comparision page next*/
 
@@ -715,7 +753,7 @@ margin: 10px;
 
 
 .enquirybutton{
-    width: 10%;
+    width: 200px;
     height: 90%;
     font-size: 12px;
     text-align: auto;
@@ -757,7 +795,7 @@ margin: 10px;
     margin-left: 8%;
     padding: 0;
     width: 80%;
-    height: 100%;
+    height: 120%;
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;

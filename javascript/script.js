@@ -11,4 +11,4 @@ function closePopup(){
     popup.classList.remove("open-popup");
 }
 
-// code for stuff
+// code for features tab
